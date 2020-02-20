@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "git@github.com:mauriciomutte/react-graphql-koa-playground.git",
   "author": "Maurício <litiobr@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
 }
