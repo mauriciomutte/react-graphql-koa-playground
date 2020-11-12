@@ -1,0 +1,16 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "ts-node-dev --ignore node_modules src/server.ts"
+	},
+	"dependencies": {
+		"koa": "^2.13.0"
+	},
+	"devDependencies": {
+		"@types/koa": "^2.11.6",
+		"ts-node-dev": "^1.0.0"
+	}
+}
