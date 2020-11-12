@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"lib": ["esnext"],
+		"noEmit": true,
+		"strict": true,
+		"baseUrl": "./",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"sourceMap": true
+	},
+	"exclude": ["node_modules", "build", "dist"]
+}
